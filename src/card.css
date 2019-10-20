@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius:4px;
+    background: silver;
+   
+
+}
+
+li{
+    margin: 2rem;
+    border: 1px solid blue;
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+}
+
+li:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.4);
+}
